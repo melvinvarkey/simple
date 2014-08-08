@@ -1,0 +1,22 @@
+#include<stdio.h>
+#include<stdlib.h>
+
+int main(int argc, char *argv[]) {
+
+  int a,b,c;
+  a=atoi(argv[1]);
+  b=atoi(argv[2]);
+  c=atoi(argv[3]);
+  if(a>b) {
+    if(a>c) {
+      printf("\nThe largest number is %d\n",a);
+    }
+    else {
+      printf("\nThe largest number is %d\n",c);
+    }
+  }
+  else {
+    printf("\nThe largest number is %d\n",b);
+  }
+  return 0;
+}
